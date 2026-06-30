@@ -1,0 +1,19 @@
+.section {
+  background-color: var(--color-bg-alt);
+}
+
+.inner {
+  text-align: center;
+  max-width: 600px;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: var(--fs-lg);
+  margin-bottom: var(--space-xs);
+}
+
+.subtitle {
+  color: var(--color-text-light);
+  margin-bottom: var(--space-md);
+}

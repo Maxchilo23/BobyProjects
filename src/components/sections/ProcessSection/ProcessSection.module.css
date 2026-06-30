@@ -1,0 +1,32 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-md);
+}
+
+.step {
+  border-left: 2px solid var(--color-primary);
+  padding-left: var(--space-sm);
+}
+
+.number {
+  font-family: var(--font-heading);
+  font-size: var(--fs-lg);
+  color: var(--color-text-light);
+}
+
+.title {
+  font-size: var(--fs-md);
+  margin: var(--space-xs) 0;
+}
+
+.description {
+  font-size: var(--fs-sm);
+  color: var(--color-text-light);
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

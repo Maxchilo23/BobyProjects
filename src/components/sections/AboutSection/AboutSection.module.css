@@ -1,0 +1,22 @@
+.inner {
+  max-width: 700px;
+}
+
+.eyebrow {
+  display: block;
+  font-size: var(--fs-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-light);
+  margin-bottom: var(--space-xs);
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: var(--fs-lg);
+  margin-bottom: var(--space-sm);
+}
+
+.description {
+  color: var(--color-text-light);
+}

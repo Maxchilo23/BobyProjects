@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.section {
+  padding: var(--space-xl) 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--space-lg) 0;
+  }
+}

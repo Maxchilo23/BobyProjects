@@ -1,0 +1,34 @@
+.wrapper {
+  margin-bottom: var(--space-lg);
+  max-width: 600px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.eyebrow {
+  display: block;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+  margin-bottom: var(--space-xs);
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: var(--fs-lg);
+  margin-bottom: var(--space-xs);
+}
+
+.subtitle {
+  color: var(--color-text-light);
+  font-size: var(--fs-sm);
+}
