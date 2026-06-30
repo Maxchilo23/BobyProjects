@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import Button from '../../ui/Button/Button'
 import styles from './Hero.module.css'
-import WhatsAppIcon from '../../ui/WhatsAppIcon/WhatsAppIcon';
+
 
 function Hero() {
   const canvasRef = useRef(null)
@@ -99,16 +99,12 @@ function Hero() {
           Sistemas de ventas, inventario, reservas y tiendas online hechos a la medida de tu empresa.
         </p>
         <div className={styles.actions}>
-          <Button href="https://wa.me/51955429147" variant="accent">
-            <WhatsAppIcon size={18} color="currentColor" />
-            Hablemos por WhatsApp
-          </Button>
+          <Button href="https://wa.me/51955429147" variant="accent">Hablemos por WhatsApp</Button>
           <Button href="/portafolio" variant="outline-light">Ver portafolio</Button>
         </div>
       </div>
     </section>
   )
-
 }
 
 export default Hero
